@@ -1,0 +1,62 @@
+/* Importing fonts */
+@font-face {
+  font-family: AdobeCaslonProRegular;
+  src: url(/fonts/AdobeCaslonProRegular.OTF);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: AdobeCaslonProItalic;
+  src: url(/fonts/AdobeCaslonProItalic.OTF);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: FontAwesome5Brands;
+  src: url(/fonts/FontAwesome5Brands.OTF);
+}
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
